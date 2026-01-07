@@ -1,0 +1,26 @@
+/* Tema exuberante: TE QUIERO LIZ */
+body {
+  background: radial-gradient(circle at top left, #ff0066, #6600ff, #ffcc00);
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 0 0 20px #ffcc00, 0 0 40px #ff0066;
+}
+
+.confetti {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
