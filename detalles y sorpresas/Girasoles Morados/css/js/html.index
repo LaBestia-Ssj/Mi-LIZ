@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+        <title>LIZ TE QUIERO</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <body class="not-loaded">
+  <!-- Botón para ti y audio, el resto oculto al inicio -->
+  <div id="pantalla-inicial" style="position:fixed;top:0;left:0;width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;z-index:300;background:rgba(0,0,0,0.98);">
+  <button id="btn-para-ti" class="btn-para-ti">Para ti</button>
+    <style>
+      .btn-para-ti {
+        padding: 1.2em 2.7em;
+        font-size: 2em;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #a259e6 0%, #e0b3ff 100%);
+        color: #fff;
+        border: 2.5px solid #e0b3ff;
+        box-shadow: 0 0 24px #a259e6aa, 0 0 48px #e0b3ff55;
+        cursor: pointer;
+        font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+        letter-spacing: 2px;
+        transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+        position: relative;
+        overflow: hidden;
+      }
+      .btn-para-ti::after {
+        content: "";
+        position: absolute;
+        left: 0; top: 0; right: 0; bottom: 0;
+        border-radius: 30px;
+        background: radial-gradient(circle at 60% 40%, #fff3 0%, #a259e6 100%);
+        opacity: 0.2;
+        pointer-events: none;
+      }
+      .btn-para-ti:hover {
+        background: linear-gradient(90deg, #e0b3ff 0%, #a259e6 100%);
+        box-shadow: 0 0 32px #e0b3ffcc, 0 0 64px #a259e688;
+        transform: scale(1.05);
+      }
+      .btn-para-ti:active {
+        transform: scale(0.98);
+        box-shadow: 0 0 16px #a259e6aa;
+      }
+    </style>
+    <audio id="audio-para-ti" src="https://github.com/Baque2005/Organizador/raw/refs/heads/master/Carla%20Morrison%20-%20Disfruto%20(letra).mp3"></audio>
+  </div>
+  <div id="contenido-principal" style="display:none;">
+    <div class="night"></div>
+  <div class="special-text">Flores moradas para ti</div>
+    <div class="shooting-stars">
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+    </div>
+    <div class="flowers">
+    <div class="flower flower--1">
+      <div class="flower__leafs flower__leafs--1">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+
+    <div class="flower flower--2">
+      <div class="flower__leafs flower__leafs--2">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+
+    <div class="flower flower--3">
+      <div class="flower__leafs flower__leafs--3">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+
+    <div class="flower flower--4">
+      <div class="flower__leafs flower__leafs--4">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+
+    <div class="flower flower--5">
+      <div class="flower__leafs flower__leafs--5">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <!-- Flores extra para el ramo -->
+    <div class="flower flower--6" style="left:20%;transform:rotate(-10deg);z-index:40;">
+      <div class="flower__leafs flower__leafs--6">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+      </div>
+      <div class="flower__line"></div>
+    </div>
+    <div class="flower flower--7" style="left:80%;transform:rotate(15deg);z-index:40;">
+      <div class="flower__leafs flower__leafs--7">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+      </div>
+      <div class="flower__line"></div>
+    </div>
+    <div class="flower flower--8" style="left:35%;transform:rotate(-25deg);z-index:30;">
+      <div class="flower__leafs flower__leafs--8">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+      </div>
+      <div class="flower__line"></div>
+    </div>
+    <div class="flower flower--9" style="left:65%;transform:rotate(25deg);z-index:30;">
+      <div class="flower__leafs flower__leafs--9">
+        <div class="flower__leaf flower__leaf--1"></div>
+        <div class="flower__leaf flower__leaf--2"></div>
+        <div class="flower__leaf flower__leaf--3"></div>
+        <div class="flower__leaf flower__leaf--4"></div>
+        <div class="flower__leaf flower__leaf--5"></div>
+        <div class="flower__leaf flower__leaf--6"></div>
+        <div class="flower__center"></div>
+      </div>
+      <div class="flower__line"></div>
+    </div>
+  </div>
+    <div class="ramo">
+  <img src="https://github.com/Baque2005/Organizador/blob/master/unnamed%20(1).png?raw=true" alt="Ramo de flores">
+    <div class="montes">
+      <svg class="monte monte-izq" viewBox="0 0 120 60" width="120" height="60">
+        <path d="M0,60 Q30,10 60,60 Q90,30 120,60 Z" fill="#4a7c23" opacity="0.85"/>
+        <path d="M10,60 Q35,25 60,60 Q80,40 110,60 Z" fill="#6b8e23" opacity="0.7"/>
+      </svg>
+      <svg class="monte monte-der" viewBox="0 0 120 60" width="120" height="60">
+        <path d="M0,60 Q30,30 60,60 Q90,10 120,60 Z" fill="#4a7c23" opacity="0.85"/>
+        <path d="M10,60 Q40,40 60,60 Q85,25 110,60 Z" fill="#8fcf5a" opacity="0.7"/>
+      </svg>
+    </div>
+  </div>
+    <script src="js/main.js"></script>
+    </body>
+</html>
