@@ -1,0 +1,152 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: "Merriweather Sans", sans-serif;
+      background: linear-gradient(to right, #4D0A26, #45061D);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+    /* Aquí aplicamos Dancing Script SOLO a los elementos que tengan esta clase */
+    .dancing-script {
+      font-family: "Dancing Script", cursive;
+      font-style: normal;
+      font-optical-sizing: auto;
+      font-size: 3.5rem;
+      margin: 20px 0;
+      color: #fff;
+      text-shadow: 0 2px 4px  rgba(255, 0, 0, 1);
+    }
+    
+    .dancing-script {
+    animation: destello 4s infinite;
+}
+
+@keyframes destello {
+    0%, 100% { 
+        text-shadow: 0 0 20px #ff6b6b, 0 0 40px #ff6b6b;
+    }
+    50% { 
+        text-shadow: 0 0 30px #ff6b6b, 
+                     0 0 60px #ff6b6b, 
+                     0 0 90px #ff6b6b,
+                     0 0 120px rgba(255, 105, 180, 0.8);
+    }
+}
+    
+    .corazones-flotando {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    width: 280px;
+    height: 200px;
+}
+
+.corazones-flotando span {
+    position: absolute;
+    font-size: 20px;
+    animation: flotar 6s infinite linear;
+    opacity: 0;
+}
+
+@keyframes flotar {
+    0%   { transform: translateY(0)   translateX(0)   rotate(0deg);   opacity: 0; }
+    10%  { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { transform: translateY(-100px) translateX(60px) rotate(360deg); opacity: 0; }
+}
+
+/* Posiciones iniciales distintas para que no salgan todos del mismo sitio */
+.corazones-flotando span:nth-child(1) { left: 10%; animation-delay: 0s; }
+.corazones-flotando span:nth-child(2) { left: 30%; animation-delay: 2s; }
+.corazones-flotando span:nth-child(3) { left: 50%; animation-delay: 4s; }
+.corazones-flotando span:nth-child(4) { left: 70%; animation-delay: 1s; }
+.corazones-flotando span:nth-child(5) { left: 90%; animation-delay: 3s; }
+.corazones-flotando span:nth-child(6) { left: 80%; animation-delay: 6s; }
+.corazones-flotando span:nth-child(7) { left: 100%; animation-delay: 8s; }
+.corazones-flotando span:nth-child(8) { left: 60%; animation-delay: 2s; } 
+    
+    .card {
+      background: black;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(245, 247, 248, 0.7);
+      padding: 25px;
+      max-width: 280px;
+      text-align: center;
+    }
+
+    .heart {
+      animation: pulse 1s infinite;
+      color: #ff6b6b;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    
+    @keyframes pulse {
+      0%   { transform: scale(0.8); }
+      50%  { transform: scale(1); }
+      100% { transform: scale(0.8); }
+    }
+    
+    .merriweather-sans {
+      font-family: 'Merriweather Sans', sans-serif;
+      font-style: normal;
+      font-size: 1.3rem;
+      font-optical-sizing: auto;
+      color: #000;
+      margin: 20px 0;
+      padding: 15px;
+      background: #fff;
+      border-radius: 8px;
+      text-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+    animation: brilloSuave 3s ease-in-out infinite alternate;
+}
+
+@keyframes brilloSuave {
+    from {
+        text-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+    }
+    to {
+        text-shadow: 0 0 40px rgba(255, 107, 107, 1),
+                     0 0 60px rgba(255, 107, 107, 0.6);
+    }
+}
+    
+
+    button {
+      background: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 5px 30px;
+      border-radius: 20px;
+      font-size: 18px;
+      cursor: none;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #e55a5a;
+    }
+
+    .floating-heart {
+      position: absolute;
+      color: #ff6b6b;
+      font-size: 20px;
+      animation: float 2s ease-in-out forwards;
+    }
+
+    @keyframes float {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-200px);
+      }
+    }
