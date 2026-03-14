@@ -1,50 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón con msjs/index.html",
       "selection": {
         "end": {
-          "column": 66,
-          "index": 3262,
-          "line": 51
+          "column": 6,
+          "index": 903,
+          "line": 35
         },
         "start": {
-          "column": 66,
-          "index": 3262,
-          "line": 51
+          "column": 6,
+          "index": 903,
+          "line": 35
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón con msjs/css/style.css",
       "selection": {
         "end": {
-          "column": 9,
-          "index": 14561,
-          "line": 403
+          "column": 87,
+          "index": 1520,
+          "line": 47
         },
         "start": {
-          "column": 9,
-          "index": 14561,
-          "line": 403
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/js/main.js",
-      "selection": {
-        "end": {
-          "column": 15,
-          "index": 5285,
-          "line": 126
-        },
-        "start": {
-          "column": 15,
-          "index": 5285,
-          "line": 126
+          "column": 87,
+          "index": 1520,
+          "line": 47
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/index.html"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón con msjs/index.html"
 }
