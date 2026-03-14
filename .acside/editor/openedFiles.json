@@ -1,0 +1,50 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/index.html",
+      "selection": {
+        "end": {
+          "column": 66,
+          "index": 3262,
+          "line": 51
+        },
+        "start": {
+          "column": 66,
+          "index": 3262,
+          "line": 51
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/css/style.css",
+      "selection": {
+        "end": {
+          "column": 9,
+          "index": 14561,
+          "line": 403
+        },
+        "start": {
+          "column": 9,
+          "index": 14561,
+          "line": 403
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/js/main.js",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 5285,
+          "line": 126
+        },
+        "start": {
+          "column": 15,
+          "index": 5285,
+          "line": 126
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Lámpara/index.html"
+}
