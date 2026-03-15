@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="scene">
+  <div class="center">
+    
+    <svg class="heart-svg" viewBox="0 0 512 512">
+      <defs>
+        <clipPath id="heartClip">
+          <path d="
+M256 472
+C256 472 40 300 40 180
+C40 80 140 40 220 110
+C240 130 256 150 256 150
+C256 150 272 130 292 110
+C372 40 472 80 472 180
+C472 300 256 472 256 472 Z" />
+        </clipPath>
+      </defs>
+      
+      <image class="slide" href="https://n9.cl/5hr9u" width="512" height="512" clip-path="url(#heartClip)" />
+      <image class="slide" href="https://n9.cl/9z2c1" width="512" height="512" clip-path="url(#heartClip)" />
+      <image class="slide" href="https://n9.cl/sx7ug" width="512" height="512" clip-path="url(#heartClip)" />
+    </svg>
+    
+    <button class="btn-carta" onclick="abrirCarta()">💌 Leer mi carta de amor</button>
+    
+  </div>
+</div>
+
+<div class="carta" id="carta">
+  <div class="carta-contenido">
+    
+    <h2>Mi amorcito ❤️</h2>
+    
+    <p>
+      Hoy sentí la necesidad de escribirte, de poner en palabras todo lo que muchas veces siento y no siempre sé cómo decir.
+      Desde que llegaste a mi vida, muchas cosas cambiaron para bien. Me enseñaste que el amor también es paciencia,
+      apoyo y compañía, incluso en los días difíciles.
+    </p>
+    
+    <p>
+      Gracias por cada detalle, por cada risa compartida y por quedarte cuando las cosas no son perfectas.
+      Contigo he aprendido a confiar, a ser más fuerte y a creer en nosotros.
+      Me gusta cómo me haces sentir, cómo me escuchas y cómo, sin darte cuenta, haces mis días más ligeros.
+    </p>
+    
+    <p>
+      No digo que todo sea fácil, pero sí sé que vale la pena.
+      Quiero seguir construyendo momentos contigo, aprendiendo juntos y creciendo como personas y como pareja.
+      Eres una parte muy importante de mi vida y no quiero dar eso por sentado.
+    </p>
+    
+    <p><b>Con todo mi amor,<br>
+        Luis Enrique 💖</b></p>
+    
+    <button class="cerrar" onclick="cerrarCarta()">Cerrar</button>
+    
+  </div>
+</div>
+  <!-- Project -->
+  <script src="js/main.js"></script>
+</body>
+</html>

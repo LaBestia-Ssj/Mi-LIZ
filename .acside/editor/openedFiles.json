@@ -1,50 +1,20 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Mi corazón es para ti/index.html",
       "selection": {
         "end": {
           "column": 7,
-          "index": 1363,
-          "line": 49
+          "index": 432,
+          "line": 21
         },
         "start": {
           "column": 7,
-          "index": 1363,
-          "line": 49
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/css/style.css",
-      "selection": {
-        "end": {
-          "column": 1,
-          "index": 3796,
-          "line": 208
-        },
-        "start": {
-          "column": 1,
-          "index": 3796,
-          "line": 208
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/js/main.js",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "index": 432,
+          "line": 21
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/js/main.js"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Mi corazón es para ti/index.html"
 }
