@@ -1,35 +1,50 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón LED/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/index.html",
       "selection": {
         "end": {
-          "column": 31,
-          "index": 360,
-          "line": 17
+          "column": 7,
+          "index": 1363,
+          "line": 49
         },
         "start": {
-          "column": 31,
-          "index": 360,
-          "line": 17
+          "column": 7,
+          "index": 1363,
+          "line": 49
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón LED/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/css/style.css",
       "selection": {
         "end": {
           "column": 1,
-          "index": 121,
-          "line": 6
+          "index": 3796,
+          "line": 208
         },
         "start": {
           "column": 1,
-          "index": 121,
-          "line": 6
+          "index": 3796,
+          "line": 208
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/js/main.js",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón LED/css/style.css"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Qué tu día mejore/js/main.js"
 }
