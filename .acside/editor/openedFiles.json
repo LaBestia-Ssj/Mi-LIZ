@@ -1,35 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón con msjs/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón LED/index.html",
       "selection": {
         "end": {
-          "column": 6,
-          "index": 903,
-          "line": 35
+          "column": 31,
+          "index": 360,
+          "line": 17
         },
         "start": {
-          "column": 6,
-          "index": 903,
-          "line": 35
+          "column": 31,
+          "index": 360,
+          "line": 17
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón con msjs/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón LED/css/style.css",
       "selection": {
         "end": {
-          "column": 87,
-          "index": 1520,
-          "line": 47
+          "column": 1,
+          "index": 121,
+          "line": 6
         },
         "start": {
-          "column": 87,
-          "index": 1520,
-          "line": 47
+          "column": 1,
+          "index": 121,
+          "line": 6
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón con msjs/index.html"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón LED/css/style.css"
 }
