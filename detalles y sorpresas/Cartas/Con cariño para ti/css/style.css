@@ -1,0 +1,128 @@
+* {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+
+      background-color: #fff;
+      background-image: radial-gradient(rgba(236, 137, 181, 0.3) 1.5px, transparent 1.5px);
+      background-size: 30px 30px;
+      background-position: center;
+    }
+    .container {
+      position: relative;
+      width: 430px;
+      height: 630px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .portada,
+    .decoracion-texto {
+      transition: transform 1s ease, opacity 1s ease;
+    }
+
+    .portada.caida,
+    .decoracion-texto.caida {
+      transform: translateY(150%) rotate(15deg);
+      opacity: 0;
+    }
+
+    .portada {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+      overflow: hidden;
+      z-index: 3;
+      cursor: pointer;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .portada img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .carta {
+      background: #fff;
+      width: 100%;
+      height: 100%;
+      border-radius: 30px;
+      border: 1px solid #ddd;
+      padding: 30px 25px 40px;
+      text-align: justify;
+      font-size: 13px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      position: relative;
+      z-index: 1;
+    }
+
+    .carta::before {
+      content: "✧";
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #888;
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 11px;
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .lazo {
+      position: absolute;
+      top: -25px;
+      right: 20px;
+      width: 60px;
+    }
+
+    .decoracion-texto {
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      color: #ec89b5;
+      font-weight: bold;
+      font-family: 'Comic Sans MS', cursive;
+      z-index: 4;
+      cursor: pointer;
+      text-shadow: 1px 1px 2px #fff;
+    }
+
+    .boton-reiniciar {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 5;
+      background-color: #ffb6c1;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-family: 'Comic Sans MS', cursive;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      display: none;
+    }
+
+    .boton-reiniciar.visible {
+      display: block;
+    }
