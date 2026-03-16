@@ -1,50 +1,50 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con cariño para ti/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/index.html",
       "selection": {
         "end": {
-          "column": 7,
-          "index": 1012,
-          "line": 24
+          "column": 10,
+          "index": 2975,
+          "line": 69
         },
         "start": {
-          "column": 7,
-          "index": 1012,
-          "line": 24
+          "column": 10,
+          "index": 2975,
+          "line": 69
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con cariño para ti/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/css/style.css",
       "selection": {
         "end": {
           "column": 5,
-          "index": 2685,
-          "line": 127
+          "index": 12570,
+          "line": 336
         },
         "start": {
           "column": 5,
-          "index": 2685,
-          "line": 127
+          "index": 12570,
+          "line": 336
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con cariño para ti/js/main.js",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/js/main.js",
       "selection": {
         "end": {
-          "column": 1,
-          "index": 441,
-          "line": 10
+          "column": 5,
+          "index": 6797,
+          "line": 195
         },
         "start": {
-          "column": 1,
-          "index": 441,
-          "line": 10
+          "column": 5,
+          "index": 6797,
+          "line": 195
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con cariño para ti/index.html"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/js/main.js"
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>💖TE AMO💖</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="intro-heart">
+    <div class="heart-bg"></div>
+    <svg viewBox="0 0 200 200" width="100vw" height="100vh" style="position:absolute;top:0;left:0;width:100vw;height:100vh;pointer-events:none;">
+      <path id="heart-shape"
+        d="M100 180
+           L30 100
+           A40 40 0 1 1 100 60
+           A40 40 0 1 1 170 100
+           Z"
+        fill="#ff0043"
+        stroke="#fff"
+        stroke-width="4"
+        style="filter: drop-shadow(0 0 24px #ff0043);"
+      />
+    </svg>
+  </div>
+  <div id="main-content" style="opacity:0; filter: blur(24px); pointer-events:none;">
+    <canvas id="bg-canvas"></canvas>
+    <div class="mensaje">
+        <!-- followers -->
+        <span>T</span><span>E</span><span>&nbsp;</span><span>A</span><span>M</span><span>O</span><br>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <!-- Project -->
+  <script src="js/main.js"></script>
+</body>
+</html>
