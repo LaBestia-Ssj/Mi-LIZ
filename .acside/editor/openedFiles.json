@@ -1,97 +1,37 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/index.html",
       "selection": {
         "end": {
-          "column": 10,
-          "index": 2975,
-          "line": 69
+          "column": 0,
+          "index": 0,
+          "line": 0
         },
         "start": {
-          "column": 10,
-          "index": 2975,
-          "line": 69
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/css/style.css",
       "selection": {
         "end": {
-          "column": 5,
-          "index": 12570,
-          "line": 336
+          "column": 0,
+          "index": 0,
+          "line": 0
         },
         "start": {
-          "column": 5,
-          "index": 12570,
-          "line": 336
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Corazón/Corazón Touch/js/main.js",
-      "selection": {
-        "end": {
-          "column": 5,
-          "index": 6797,
-          "line": 195
-        },
-        "start": {
-          "column": 5,
-          "index": 6797,
-          "line": 195
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Mi corazón es para ti/index.html",
-      "selection": {
-        "end": {
-          "column": 22,
-          "index": 218,
-          "line": 7
-        },
-        "start": {
-          "column": 22,
-          "index": 218,
-          "line": 7
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con mucho amor/index.html",
-      "selection": {
-        "end": {
-          "column": 6,
-          "index": 1112,
-          "line": 45
-        },
-        "start": {
-          "column": 6,
-          "index": 1112,
-          "line": 45
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con mucho amor/css/style.css",
-      "selection": {
-        "end": {
-          "column": 1,
-          "index": 1114,
-          "line": 74
-        },
-        "start": {
-          "column": 1,
-          "index": 1114,
-          "line": 74
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con mucho amor/js/main.js",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/js/main.js",
       "selection": {
         "end": {
           "column": 0,
@@ -106,5 +46,5 @@
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Cartas/Con mucho amor/js/main.js"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/js/main.js"
 }
