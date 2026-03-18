@@ -1,50 +1,50 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Feliz día/index.html",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 24,
+          "index": 250,
+          "line": 7
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 24,
+          "index": 250,
+          "line": 7
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Feliz día/js/main.js",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 20,
+          "index": 196,
+          "line": 6
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 20,
+          "index": 196,
+          "line": 6
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/js/main.js",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Feliz día/css/style.css",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 1,
+          "index": 3821,
+          "line": 228
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 1,
+          "index": 3821,
+          "line": 228
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/js/main.js"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Feliz día/css/style.css"
 }
