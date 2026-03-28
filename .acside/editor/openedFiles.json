@@ -1,20 +1,50 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/index.html",
       "selection": {
         "end": {
-          "column": 37,
-          "index": 796,
-          "line": 15
+          "column": 7,
+          "index": 1104,
+          "line": 39
         },
         "start": {
-          "column": 37,
-          "index": 796,
-          "line": 15
+          "column": 7,
+          "index": 1104,
+          "line": 39
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/css/style.css",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 3170,
+          "line": 187
+        },
+        "start": {
+          "column": 1,
+          "index": 3170,
+          "line": 187
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/js/main.js",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/detalles y sorpresas/Tarjetas/Mi niña/index.html"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/js/main.js"
 }
