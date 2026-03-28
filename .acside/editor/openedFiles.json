@@ -1,37 +1,37 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/index.html",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Si a caso hay un final/Te perdí/index.html",
       "selection": {
         "end": {
           "column": 7,
-          "index": 1104,
-          "line": 39
+          "index": 5221,
+          "line": 162
         },
         "start": {
           "column": 7,
-          "index": 1104,
-          "line": 39
+          "index": 5221,
+          "line": 162
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/css/style.css",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Si a caso hay un final/Te perdí/css/style.css",
       "selection": {
         "end": {
           "column": 1,
-          "index": 3170,
-          "line": 187
+          "index": 6467,
+          "line": 389
         },
         "start": {
           "column": 1,
-          "index": 3170,
-          "line": 187
+          "index": 6467,
+          "line": 389
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/js/main.js",
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Si a caso hay un final/Te perdí/js/main.js",
       "selection": {
         "end": {
           "column": 0,
@@ -46,5 +46,5 @@
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Fechas-especiales/Aniversario/7 Meses/js/main.js"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mi-LIZ/Si a caso hay un final/Te perdí/js/main.js"
 }

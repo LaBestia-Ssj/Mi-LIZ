@@ -1,0 +1,390 @@
+:root {
+  --crema: #F5EDE0;
+  --arena: #E8D5BE;
+  --naranja: #C4622D;
+  --terracota: #A0432A;
+  --texto: #2C1608;
+  --gris: #8C7060;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--crema);
+  color: var(--texto);
+  font-family: 'Crimson Pro', serif;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 28px, rgba(196, 98, 45, 0.04) 28px, rgba(196, 98, 45, 0.04) 29px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mancha {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(70px);
+}
+
+.m1 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, #C4622D, #E8924A);
+  top: -100px;
+  right: -100px;
+  opacity: 0.2;
+}
+
+.m2 {
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, #8B3A2A, #C4622D);
+  bottom: 80px;
+  left: -120px;
+  opacity: 0.1;
+}
+
+.contenedor {
+  position: relative;
+  z-index: 1;
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* PORTADA */
+.portada {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  padding: 4rem 0;
+}
+
+.sello {
+  justify-self: end;
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gris);
+  padding-top: 2rem;
+  opacity: 0;
+  animation: subir 1.2s ease-out 0.3s forwards;
+}
+
+.portada-centro {
+  align-self: center;
+}
+
+.dedicatoria {
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--naranja);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: subir 1.2s ease-out 0.5s forwards;
+}
+
+.titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(4rem, 13vw, 10rem);
+  font-weight: 400;
+  line-height: 0.9;
+  color: var(--texto);
+  opacity: 0;
+  animation: subir 1.4s ease-out 0.7s forwards;
+}
+
+.titulo span {
+  font-style: italic;
+  color: var(--terracota);
+  display: block;
+  margin-left: 2.5rem;
+}
+
+.intro {
+  margin-top: 3rem;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--gris);
+  font-style: italic;
+  max-width: 380px;
+  opacity: 0;
+  animation: subir 1.4s ease-out 1s forwards;
+}
+
+.scroll-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: end;
+  padding-bottom: 2rem;
+  opacity: 0;
+  animation: subir 1.2s ease-out 1.5s forwards;
+}
+
+.scroll-hint span {
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+.scroll-hint i {
+  width: 1px;
+  height: 50px;
+  background: linear-gradient(to bottom, var(--naranja), transparent);
+  display: block;
+  animation: parpadear 2s ease-in-out infinite;
+}
+
+@keyframes subir {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes parpadear {
+
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  
+  50% {
+    opacity: 1;
+  }
+}
+
+/* SEPARADOR */
+.sep {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.sep-l {
+  flex: 1;
+  height: 1px;
+  background: var(--arena);
+}
+
+.sep-o {
+  font-size: 0.7rem;
+  color: var(--naranja);
+  letter-spacing: 0.4em;
+}
+
+/* CARTA */
+.carta {
+  padding: 5rem 0 8rem;
+}
+
+.intro-carta {
+  font-size: 1.05rem;
+  color: var(--gris);
+  font-style: italic;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+/* BLOQUES */
+.bloque {
+  margin-bottom: 5rem;
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.bloque.vis {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.etiqueta {
+  font-size: 0.68rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--naranja);
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.etiqueta::before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background: var(--naranja);
+  flex-shrink: 0;
+}
+
+.v {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--texto);
+  display: block;
+}
+
+.v.i {
+  font-style: italic;
+  color: var(--gris);
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+}
+
+.v.a {
+  color: var(--terracota);
+  font-style: italic;
+}
+
+.v.s {
+  font-family: 'Crimson Pro', serif;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 300;
+  color: var(--gris);
+  font-style: italic;
+}
+
+.esp {
+  display: block;
+  height: 1.1rem;
+}
+
+.nota {
+  border-left: 2px solid var(--arena);
+  padding-left: 1.5rem;
+  margin: 2rem 0 2rem 2rem;
+}
+
+.nota p {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--gris);
+  line-height: 1.7;
+}
+
+.cita-bloque {
+  background: var(--arena);
+  border-radius: 2px;
+  padding: 3rem 2.5rem;
+  margin: 4rem 0;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.cita-bloque.vis {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cita-bloque::before {
+  content: '❝';
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  font-size: 6rem;
+  color: rgba(196, 98, 45, 0.1);
+  font-family: 'Playfair Display', serif;
+  line-height: 1;
+}
+
+.cita-bloque p {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  line-height: 1.55;
+  color: var(--texto);
+  position: relative;
+  z-index: 1;
+}
+
+.cita-pie {
+  margin-top: 1.2rem !important;
+  font-family: 'Crimson Pro', serif !important;
+  font-size: 0.78rem !important;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--naranja) !important;
+  font-style: normal !important;
+}
+
+.firma {
+  padding: 6rem 0 8rem;
+  text-align: right;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.firma.vis {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.firma .ln {
+  width: 80px;
+  height: 1px;
+  background: var(--naranja);
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+
+.firma .nm {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--texto);
+  display: block;
+}
+
+.firma .sub {
+  font-size: 0.78rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gris);
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.num {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: var(--arena);
+  z-index: 10;
+  writing-mode: vertical-rl;
+}
